@@ -1,0 +1,48 @@
+html {
+  body {
+    margin: 0;
+
+    main {
+      section {
+        //cursor: none;
+
+        &.loader {
+          z-index: 1;
+          position: absolute;
+          top: 0;
+          width: 100%;
+        }
+
+        .bc {
+          width: 100%;
+          height: 100vh;
+          background-color: $bc;
+          position: absolute;
+          top: 0;
+
+        }
+
+        .count {
+          display: block;
+          width: 500px;
+          height: 500px;
+          margin: 50vh auto 0 auto;
+          transform: translateY(-50%);
+          font-family: $font;
+          color: white;
+          font-size: 10em;
+          text-align: center;
+          line-height: 500px;
+          box-shadow: inset 0 0 0 0 rgb(255, 255, 255); /*shadow grows to the inside*/
+          transition: .5s;
+          border-radius: 100%;
+
+          p {
+            opacity: 1;
+          }
+
+        }
+      }
+    }
+  }
+}

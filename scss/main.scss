@@ -1,0 +1,16 @@
+//$bc: rgba(163, 255, 240, .2);
+$bc: rgba(255, 204, 110, .5);
+//$color1: #87C0FF;
+$color1: #FFCC6E;
+$color2: rgba(255, 204, 110, 1);
+$color3: rgba(255, 204, 110, .4);
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+
+$font: 'Libre Baskerville', serif;
+
+@import "template/loader";
+@import "template/accueil";
+@import "template/mouse";
+@import "template/background";
+
+

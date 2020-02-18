@@ -1,0 +1,45 @@
+html {
+  //cursor: none;
+
+  body {
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    main {
+      section {
+        &.main_content {
+          opacity: 1;
+        }
+
+        div {
+          &.block {
+            border: 4px solid $color1;
+            width: 100px;
+            height: 100px;
+            display: block;
+            margin: 80vh auto 0 auto;
+            border-radius: 100%;
+
+            a {
+              width: 100px;
+              height: 100px;
+              display: block;
+            }
+          }
+
+          &.projets {
+            &:after {
+              content: attr(data-after);
+              width: 100%;
+              height: auto;
+              color: black;
+              display: block;
+              position: absolute;
+            }
+          }
+        }
+      }
+    }
+  }
+}
